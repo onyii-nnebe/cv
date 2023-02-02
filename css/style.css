@@ -1,0 +1,340 @@
+body {
+    background-color: white;
+}
+
+h1.top {
+    float: none;
+    padding-top: 100px;
+    padding-left: 80px; 
+    font-family: 'Audiowide', sans-serif;
+    font-size: 84px;
+    text-align: center;
+    margin: auto;
+}
+
+h2.desc {
+    font-size: 30px;
+    font-family: 'Audiowide', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-left: 5rem;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Audiowide', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #69A8FA;
+}
+
+.intro {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headline {
+    background-image: url('../images/cyber.gif');
+    width: 100%;
+    height: 70vh;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;  
+}
+
+#hello {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 33px;
+    font-weight: lighter;
+    color: black;
+    text-align: center;
+}
+
+.skills {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 23px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;    
+}
+
+.skill {
+    padding-top: 10px;
+}
+
+#lang {
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#experience {
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 22%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+dt {
+    float: left;
+}
+
+dd {
+    float: right;
+    text-align: left;
+    width: 600px;
+}
+
+#tech-skills {
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pic1 {
+    float: left;
+    max-height: 20vh;
+    padding-right: 30%;
+    margin: 10px 0 0 0;
+}
+
+.pic2 {
+    float: left;
+    max-height: 20vh;
+    padding-right: 30%;
+    margin: 30px 0 0 0;
+}
+
+.pic3 {
+    float: left;
+    max-height: 20vh;
+    padding-left: 20%;
+    margin: 30px 50px 0 0;
+}
+
+#bio {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+    color: #69A8FA;
+    padding-bottom: 25px;
+    text-align: center;    
+}
+
+#headshot {
+    border: 5px double #69A8FA;
+    float: right;
+    margin-top: 105px;
+    margin-left: 150px;
+    margin-right: 230px;
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    overflow: visible;
+    text-align: auto;  
+    border-top: thick double navy;
+    height: 4px;
+    width: 75%;
+    size: 190px;
+}
+
+header {
+    display: flex;
+    justify-content: middle;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #69A8FA;
+    position: fixed;
+    align-items:center;
+    top: 0;
+    left: 0;
+    padding: 6px 4%;   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #69A8FA;
+}   
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Audiowide', sans-serif;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+}
+
+.nav-links:visited{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+.nav-links:hover{
+    text-decoration: none;
+    color: white;
+}
+a.active, a:hover {
+    background-color: #69A8FA;
+    transition: .3s;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.button {
+    padding: 9px 25px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.button:hover {
+    box-shadow: 0 8px 16px 0 #69A8FA;
+    text-decoration: underline;
+}
+
+input[type=text], select {
+    font-family: 'Inria Sans', sans-serif;
+    width: 600px;
+    padding: 12px 20px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    font-family: 'Inria Sans', sans-serif;
+    width: 600px;
+    padding: 12px 20px;
+    margin: 9px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border-color: #69A8FA;
+    box-shadow: 0 12px 10px #69A8FA;
+}
+
+textarea {
+    font-family: 'Inria Sans', sans-serif;
+    width: 500px;
+    padding: 12px 20px;
+    color: white;
+    margin-top: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: auto;
+    font-family: 'Inria Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 9px 25px;
+    margin: 20px 0;
+    background-color: rgba(105,168,250,.9);
+    text-decoration: underline;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    border: 3px solid rgba(105,168,250,.7);
+    box-shadow: 0 8px 12px 0 #69A8FA;
+}
+
+.container {
+    box-shadow: 12px 12px 2px 1px #69A8FA;
+	min-width: 700px;
+	min-height: 450px;
+	border-radius: 180px;	
+}
+
+.content {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+	transform: translatez(60px) scale(0.9);
+	line-height: 1.5em;
+}
+
+.form {
+	padding-top: 10px;
+	background-color: rgba(105,168,250,.7);
+    border-radius: 5px;
+    text-align: center;
+}
+
+label,
+form input {
+	display: block;
+}
+input,
+textarea {
+	background: rgba(000,000,000,.2);
+	border: 0;
+	padding: 5px;
+	width: 100%;
+}
+
+#contact {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+}
+h1.contact {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 84px;
+    text-align: center;
+    margin: auto;   
+}
+
+#info {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 23px;
+    color: #69A8FA;
+}
